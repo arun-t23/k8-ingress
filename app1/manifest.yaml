@@ -19,10 +19,10 @@ spec:
         purpose: ingress-demo
         project: roboshop
         app: app1
-      spec:
-        containers:
-        - name: app1
-          image: arunt98/app1:v1
+    spec:
+      containers:
+      - name: app1
+        image: arunt98/app1:v1
 ---
 
 apiVersion: v1
